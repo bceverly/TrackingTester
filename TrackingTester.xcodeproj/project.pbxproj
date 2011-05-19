@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBF5B88613853EAB009346DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5B88513853EAB009346DB /* UIKit.framework */; };
+		BBF5B88813853EAB009346DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5B88713853EAB009346DB /* Foundation.framework */; };
+		BBF5B88A13853EAB009346DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF5B88913853EAB009346DB /* CoreGraphics.framework */; };
+		BBF5B89013853EAB009346DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBF5B88E13853EAB009346DB /* InfoPlist.strings */; };
+		BBF5B89313853EAB009346DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5B89213853EAB009346DB /* main.m */; };
+		BBF5B89613853EAB009346DB /* TrackingTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5B89513853EAB009346DB /* TrackingTesterAppDelegate.m */; };
+		BBF5B89913853EAB009346DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF5B89713853EAB009346DB /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBF5B88113853EAB009346DB /* TrackingTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF5B88513853EAB009346DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBF5B88713853EAB009346DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBF5B88913853EAB009346DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBF5B88D13853EAB009346DB /* TrackingTester-Info.plist */ = {isa = PBXFileReference; path = "TrackingTester-Info.plist"; sourceTree = "<group>"; };
+		BBF5B88F13853EAB009346DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBF5B89113853EAB009346DB /* TrackingTester-Prefix.pch */ = {isa = PBXFileReference; path = "TrackingTester-Prefix.pch"; sourceTree = "<group>"; };
+		BBF5B89213853EAB009346DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBF5B89413853EAB009346DB /* TrackingTesterAppDelegate.h */ = {isa = PBXFileReference; path = TrackingTesterAppDelegate.h; sourceTree = "<group>"; };
+		BBF5B89513853EAB009346DB /* TrackingTesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingTesterAppDelegate.m; sourceTree = "<group>"; };
+		BBF5B89813853EAB009346DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF5B87E13853EAB009346DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF5B88613853EAB009346DB /* UIKit.framework in Frameworks */,
+				BBF5B88813853EAB009346DB /* Foundation.framework in Frameworks */,
+				BBF5B88A13853EAB009346DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBF5B87613853EAB009346DB = {
+			isa = PBXGroup;
+			children = (
+				BBF5B88B13853EAB009346DB /* TrackingTester */,
+				BBF5B88413853EAB009346DB /* Frameworks */,
+				BBF5B88213853EAB009346DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF5B88213853EAB009346DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5B88113853EAB009346DB /* TrackingTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF5B88413853EAB009346DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5B88513853EAB009346DB /* UIKit.framework */,
+				BBF5B88713853EAB009346DB /* Foundation.framework */,
+				BBF5B88913853EAB009346DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBF5B88B13853EAB009346DB /* TrackingTester */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5B89413853EAB009346DB /* TrackingTesterAppDelegate.h */,
+				BBF5B89513853EAB009346DB /* TrackingTesterAppDelegate.m */,
+				BBF5B89713853EAB009346DB /* MainWindow.xib */,
+				BBF5B88C13853EAB009346DB /* Supporting Files */,
+			);
+			path = TrackingTester;
+			sourceTree = "<group>";
+		};
+		BBF5B88C13853EAB009346DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBF5B88D13853EAB009346DB /* TrackingTester-Info.plist */,
+				BBF5B88E13853EAB009346DB /* InfoPlist.strings */,
+				BBF5B89113853EAB009346DB /* TrackingTester-Prefix.pch */,
+				BBF5B89213853EAB009346DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF5B88013853EAB009346DB /* TrackingTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF5B89C13853EAB009346DB /* Build configuration list for PBXNativeTarget "TrackingTester" */;
+			buildPhases = (
+				BBF5B87D13853EAB009346DB /* Sources */,
+				BBF5B87E13853EAB009346DB /* Frameworks */,
+				BBF5B87F13853EAB009346DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackingTester;
+			productName = TrackingTester;
+			productReference = BBF5B88113853EAB009346DB /* TrackingTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF5B87813853EAB009346DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "BCE Associates, Inc.";
+			};
+			buildConfigurationList = BBF5B87B13853EAB009346DB /* Build configuration list for PBXProject "TrackingTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBF5B87613853EAB009346DB;
+			productRefGroup = BBF5B88213853EAB009346DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF5B88013853EAB009346DB /* TrackingTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF5B87F13853EAB009346DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF5B89013853EAB009346DB /* InfoPlist.strings in Resources */,
+				BBF5B89913853EAB009346DB /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF5B87D13853EAB009346DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF5B89313853EAB009346DB /* main.m in Sources */,
+				BBF5B89613853EAB009346DB /* TrackingTesterAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBF5B88E13853EAB009346DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF5B88F13853EAB009346DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBF5B89713853EAB009346DB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF5B89813853EAB009346DB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBF5B89A13853EAB009346DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBF5B89B13853EAB009346DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BBF5B89D13853EAB009346DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingTester/TrackingTester-Prefix.pch";
+				INFOPLIST_FILE = "TrackingTester/TrackingTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBF5B89E13853EAB009346DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingTester/TrackingTester-Prefix.pch";
+				INFOPLIST_FILE = "TrackingTester/TrackingTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF5B87B13853EAB009346DB /* Build configuration list for PBXProject "TrackingTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF5B89A13853EAB009346DB /* Debug */,
+				BBF5B89B13853EAB009346DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF5B89C13853EAB009346DB /* Build configuration list for PBXNativeTarget "TrackingTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF5B89D13853EAB009346DB /* Debug */,
+				BBF5B89E13853EAB009346DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF5B87813853EAB009346DB /* Project object */;
+}
